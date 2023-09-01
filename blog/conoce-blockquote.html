@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Codificable - Blog: Conoce sobre blockquote</title>
+        <link rel="stylesheet" href="../styles/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../hans-style.css">
+    </head>
+    <body>
+        <header class="header">
+        <h1 class="header__logo"><a href="/index.html">Codificable</a></h1>
+        <nav class="navigation">
+            <ul>
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <main>
+        <div class="section">
+            <div class="container">
+                <article class="article">
+                    <header class="article__header">
+                    <div class="article-metadata">
+                        <span class="article-metadata__date">25 Agosto 2023</span>
+                        <span class="article-metadata__tag">Principiante</span>
+                    </div>
+                    <div class="author">
+                        <img
+                        src="/assets/images/hans-profile.jfif"
+                        alt="Micaela Bolognesi Avatar"
+                        width="320"
+                        height="480"
+                        class="author__avatar"
+                        />
+                        <div class="author__info">
+                        <strong>Hans Melchor</strong>
+                        <span>Full Stack Developer Candidate</span>
+                        </div>
+                    </div>
+                    </header>
+
+                    <!-- start content -->
+                    <div class="content">
+                    <h1>Conoce sobre blockquote</h1>
+                    <img
+                        src="https://onaircode.com/wp-content/uploads/2019/09/quote-hover-1080x675.jpg"
+                        alt="Phone taking picture of meal"
+                        width="1344"
+                        height="896"
+                    />
+                    <p>
+                        Si alguna vez has deseado dar énfasis y destacar ideas clave en tu contenido, este es el lugar adecuado para ti. En esta breve exploración, te sumergirás en el fascinante mundo del resaltado efectivo con la habilidad de capturar la atención mediante elementos visuales distintivos. Prepárate para descubrir cómo realzar tus mensajes y añadir un toque de intriga a tus lectores, mientras exploramos la magia de enfocar la mirada en fragmentos esenciales. 
+                    </p>
+                    <h2>¿Qué es Blockquote?</h2>
+                    <p>
+                        
+                        El elemento <strong>&lt;blockquote&gt;</strong>  es una etiqueta de marcado HTML diseñada para representar fragmentos de texto que se citan o extraen de otra fuente. Usualmente, se utiliza para dar crédito a autores y proporcionar un contexto claro para el contenido citado. Además, el elemento <strong>&lt;blockquote&gt;</strong> es una herramienta valiosa para la semántica web, ya que indica que el contenido dentro de él es una cita.
+                    </p>
+                    
+                    <!-- =============================================================================================== -->
+
+
+                    <h2>Sintaxis básica</h2>
+                    <p>
+                        La sintaxis básica del elemento <strong>&lt;blockquote&gt;</strong> es la siguiente:
+                    </p>
+
+                    <h3>HTML</h3>
+
+                    <pre><code>&lt;<span class="span-label">blockquote</span>&gt;
+        &lt;<span class="span-label">p</span>&gt;El texto citado va aquí&lt;<span class="span-label">/p</span>&gt;
+        &lt;<span class="span-label">footer</span>&gt;Nombre del autor&lt;<span class="span-label">/footer</span>&gt;
+&lt;<span class="span-label">/blockquote</span>&gt;</code></pre>
+
+                    <ul>
+                        <li><code>&lt;blockquote&gt;</code>: Inicia el bloque de cita.</li>
+                        <li>
+                        <code>&lt;p&gt;</code>: Define el párrafo que contiene el texto citado.</li>
+                        <li>
+                        <code>&lt;footer&gt;</code>: Se usa para indicar el autor o la fuente de la cita.</li>
+                    </ul>
+
+                    <!-- =============================================================================================== -->
+
+                    <h2>Atributos clave</h2>
+                    <p>
+                        Aunque el elemento <strong>&lt;blockquote&gt;</strong> es relativamente simple, admite algunos atributos clave que pueden mejorar su apariencia y funcionalidad:
+                    </p>
+
+                    <ul>
+                        <li><code>&lt;cite&gt;</code>: Este atributo se utiliza para proporcionar una URL que enlaza con la fuente original del contenido citado. Si bien no es visible para los usuarios, es importante para la accesibilidad y para dar crédito adecuado a la fuente.</li>
+                    </ul>
+
+                    <!-- =============================================================================================== -->
+
+                    <h2>Ejemplos:</h2>
+
+                    <pre><code>&lt;<span class="span-label">blockquote</span>&gt;
+    &lt;<span class="span-label">p</span>&gt;La imaginación es más importante que el conocimiento.&lt;<span class="span-label">/p</span>&gt;
+    &lt;<span class="span-label">cite</span>&gt;— Albert Einstein&lt;<span class="span-label">/cite</span>&gt;
+&lt;<span class="span-label">/blockquote</span>&gt;</code></pre>
+                    <div class="content-blockquote">
+                        <blockquote>
+                            <p>La imaginación es más importante que el conocimiento.</p>
+                            <cite>— Albert Einstein</cite>
+                        </blockquote>
+                    </div>
+
+                    <pre><code>&lt;<span class="span-label">blockquote</span>&gt;
+    &lt;<span class="span-label">p</span>&gt;El cambio climático es el mayor desafío al que se enfrenta la humanidad en este siglo.&lt;<span class="span-label">/p</span>&gt;
+    &lt;<span class="span-label">cite</span>&gt;
+        &lt;<span class="span-label">a</span> <span class="span-red">title</span>=<span class="span-green">"Cambio climático"</span> <span class="span-red">href</span>=<span class="span-green">"https://www.un.org/es/climatechange/what-is-climate-change"</span> &gt; https://www.un.org/es/climatechange/what-is-climate-change &lt;<span class="span-label">/a</span>&gt;
+    &lt;<span class="span-label">/cite</span>&gt;
+&lt;<span class="span-label">/blockquote</span>&gt;</code></pre>
+                    <div class="content-blockquote">
+                        <blockquote>
+                            <p>El cambio climático es el mayor desafío al que se enfrenta la humanidad en este siglo.</p>
+                            <cite>
+                                <a target="_blank" href="https://www.un.org/es/climatechange/what-is-climate-change">https://www.un.org/es/climatechange/what-is-climate-change</a>
+                            </cite>
+                          </blockquote>                          
+                    </div>
+
+                    <h3>Escuche toda la información con un solo click!</h3>
+                    <figure class="audio-figure">
+                        <audio controls>
+                            <source src="https://ia800509.us.archive.org/30/items/blockquote-audio-mp3_202308/blockquote-audio-mp3.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </figure>
+
+                    <br>
+                    <blockquote class="blockquote-referer">
+                        Información obtenida de:
+                        <cite>
+                            <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote</a>
+                        </cite>
+                    </blockquote>
+
+
+                </article>
+            </div>
+        </div>
+        </main>
+
+        <footer class="container footer">
+        <ul class="social-links">
+            <li>
+            <a href="#"
+                ><img src="/assets/icons/facebook.svg" alt="Facebook icon"
+            /></a>
+            </li>
+            <li>
+            <a href="#"
+                ><img src="/assets/icons/linkedin.svg" alt="LinkedIn icon"
+            /></a>
+            </li>
+            <li>
+            <a href="#"
+                ><img src="/assets/icons/twitter.svg" alt="Twitter icon"
+            /></a>
+            </li>
+            <li>
+            <a href="#"
+                ><img src="/assets/icons/github.svg" alt="GitHub icon"
+            /></a>
+            </li>
+        </ul>
+        <small>&copy; 2023 Codificable - Todos los derechos reservados</small>
+        </footer>
+    </body>
+</html>
