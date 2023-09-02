@@ -63,7 +63,9 @@
 
 
 
-
+.article-summary {
+  /* max-width: var(--width-xl); */
+}
 
 .article-summary .article-metadata {
   margin-bottom: 12px;
