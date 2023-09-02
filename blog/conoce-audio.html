@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificable - Blog: "Conoce El Elemento Audio"</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+        <h1 class="header__logo"><a href="/index.html">Codificable</a></h1>
+        <nav class="header__navigation navigation">
+          <ul>
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button class="button button--sm">Login</button>
+        </div>
+        <button class="header__menu-icon button button--icon button--outline">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              d="M2.66663 8H13.3333M2.66663 4H13.3333M2.66663 12H13.3333"
+              stroke="currentColor"
+              stroke-width="1.33"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </header>
+
+    <main>
+      <div class="section">
+        <div class="container">
+          <article class="article">
+            <header class="article__header">
+              <div class="article-metadata">
+                <span class="article-metadata__date">01 Setiembre 2023</span>
+                <span class="article-metadata__tag">Principiante</span>
+              </div>
+              <div class="author">
+                <img
+                  src="/assets/images/osvaldo-profile.png"
+                  alt="Osvaldo Vazquez"
+                  width="320"
+                  height="480"
+                  class="author__avatar"
+                />
+                <div class="author__info">
+                  <strong>Osvaldo Vazquez</strong>
+                  <span>Full stack trainee</span>
+                </div>
+              </div>
+            </header>
+            <div class="content">
+              <h1>Descubre el elemento Audio en HTML</h1>
+              <img
+                src="/assets/images/audio-image.png"
+                alt="Girl programming"
+                width="1344"
+                height="896"
+              />
+              <audio controls>
+                <source src="https://docs.google.com/uc?export=download&id=1WnqEsLlPYw-sq-4bY8QCMl-QG96XoPW4" type="audio/ogg">
+                <source src="https://docs.google.com/uc?export=download&id=1WnqEsLlPYw-sq-4bY8QCMl-QG96XoPW4" type="audio/mpeg">
+
+              </audio>
+              <p>
+                Si te interesa la programacion y el diseño web y sus elementos
+                estás en el lugar correcto. En este artículo, te abordaremos sobre
+                uno de los elementos mas interesantes de la estructura HTML que es
+                quien da ritmo a las páginas web. Así que prepárate para explorar
+                un mundo emocionante y creativo.
+              </p>
+              <h2>¿Qué es el elemento audio en HTML?</h2>
+              <p>
+                En el vertiginoso mundo de la web actual, el contenido multimedia se ha convertido en un
+                pilar fundamental para crear experiencias enriquecedoras. Una de las formas más atractivas
+                de compartir información y emociones es a través del elemento <audio> en HTML. Este
+                componente permite la incorporación de archivos de audio directamente en las páginas 
+                web, brindando a los desarrolladores y diseñadores una herramienta poderosa para cautivar
+                a sus audiencias.       
+                </p>
+              <p>
+                Vamos a sumergirnos en algunos elementos fundamentales de audio
+                que te permitirán llevar tu página web al siguiente nivel:
+                
+              </p>
+              <h2>Etiquetas y Elementos</h2>
+              <p>
+                El elemento audio es parte esencial del estándar HTML5 y ha transformado la forma en 
+                que interactuamos con la música, los efectos sonoros y otros contenidos auditivos en línea.
+                Su implementación es sorprendentemente sencilla. A continuación, se presentan los
+                elementos clave del uso del elemento audio.
+                <p>
+
+                </p>
+                Atributo controls: Al agregar el atributo controls al elemento audio, se 
+                muestran controles de reproducción estándar, como botones de reproducción/pausa,
+                control de volumen y barra de progreso.
+                <br>
+                <br>
+                Compatibilidad: El elemento audio es compatible con una amplia gama de formatos
+                de archivo, como MP3, Ogg Vorbis y WAV. La inclusión de múltiples fuentes mediante las
+                etiquetas source garantiza la reproducción en diversos navegadores y plataformas.
+                <br>
+                <br>
+                Eventos y scripting: Además de su funcionalidad básica, el elemento audio puede ser
+                manipulado mediante JavaScript para personalizar la experiencia. Los eventos, como
+                play, pause y timeupdate, permiten la creación de interacciones más dinámicas.
+                <br>
+                <br>
+                Estructura básica: Para incorporar un archivo de audio en una página web, se utiliza la
+                etiqueta audio. Dentro de esta etiqueta, se incluye una o varias etiquetas source
+                que definen las diferentes fuentes del archivo de audio, permitiendo al navegador
+                seleccionar la que sea compatible.
+                <br>
+               </p>
+              <h3>AUDIO CONTROLS</h3>
+              <p>
+               Son elementos utiles para optimizar la compatibilidad 
+               con el navegador:
+              </p>
+              <h4>AUDIO CONTROLS</h4>
+<pre><code>
+&lt;audio controls&gt;
+&lt;source src=&quot;cancion.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;source src=&quot;cancion.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+Tu navegador no soporta el elemento de audio.
+&lt;/audio&gt;
+</code></pre>
+              <h2>La Armonía del Elemento de Audio</h2>
+              <p>
+                <em>El elemento audio ha revolucionado la forma en que los sitios web comparten
+                contenido sonoro. Desde la música de fondo que establece el estado de ánimo de un sitio
+                hasta los efectos de sonido que realzan la interactividad, este elemento desempeña un
+                papel crucial en la narración de historias digitales. A medida que la web evoluciona, el 
+                elemento audio continúa brindando una vía creativa y expresiva para enriquecer nuestras 
+                experiencias en línea. Ya sea para educar, entretener o emocionar, la capacidad de incorporar
+                audio directamente en las páginas web amplía los límites de la creatividad digital.</em>
+              </p>
+              <p>
+                <strong>
+                    <blockquote>"Los errores son la prueba de que estás intentando.
+                     No temas equivocarte, teme quedarte inmóvil."
+                    <cite>Roy T. Bennett</cite></blockquote>
+                </strong>
+                
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container footer">
+      <ul class="social-links">
+        <li>
+          <a href="#"
+            ><img src="/assets/icons/facebook.svg" alt="Facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/assets/icons/linkedin.svg" alt="LinkedIn icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/assets/icons/twitter.svg" alt="Twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/assets/icons/github.svg" alt="GitHub icon"
+          /></a>
+        </li>
+      </ul>
+      <small>&copy; 2023 Codificable - Todos los derechos reservados</small>
+    </footer>
+  </body>
+</html>

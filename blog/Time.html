@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificable</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <header class="header container">
+        <h1 class="header__logo"><a href="/index.html">Codificable</a></h1>
+        <nav class="header__navigation navigation">
+          <ul>
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button class="button button--sm">Login</button>
+        </div>
+        <button class="header__menu-icon button button--icon button--outline">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              d="M2.66663 8H13.3333M2.66663 4H13.3333M2.66663 12H13.3333"
+              stroke="currentColor"
+              stroke-width="1.33"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </header>
+
+        <main>
+        <div class="section">
+            <div class="container">
+                <article class="article">
+
+                <header class="article__header">
+                    <div class="article-metadata">
+                        <span class="article-metadata__date">01 Setiembre 2023</span>
+                        <span class="article-metadata__tag">Principiante</span>
+                    </div>
+                    <div class="author">
+                        <img
+                        src="https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/365447145_6451313718271260_7175706086066905847_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeFvOvDjg3JDZMOn9PWxHTZWZvF7hbzCcVpm8XuFvMJxWjrWAXAFrA-bTts-H7YxWGXLwYsEWPN4LGD7ydWxlQL0&_nc_ohc=0PDLSY8ldN8AX-DDcry&_nc_ht=scontent.flim13-1.fna&oh=00_AfBqF1GZcqRLt8pIyfpU8b9_SwbrKM9gS_vShatlu38pzg&oe=64F785C9"
+                        alt="Antony Kairo Herrera Vizarreta"
+                        width="320"
+                        height="480"
+                        class="author__avatar"
+                        />
+                        <div class="author__info">
+                        <strong>Antony Kairo Herrera Vizarreta</strong>
+                        <span>Full Stack Developer Candidate</span>
+                        </div>
+                    </div>
+                    </header>
+
+                <div class="content">
+                    <h1>Elemento &lt;time&gt; en HTML</h1>
+                    <p>
+                        El <strong>elemento HTML </strong><code>&lt;time&gt;</code> es parte de <a href="/codificable-blog-c12w01t05/blog/conoce-los-elementos-basicos-de-html.html" target="_blank">elementos básicos de HTML</a> que <em>representa un periodo específico en el tiempo.</em> 
+                        Puede incluir el atributo <code>&lt;datetime&gt;</code> para convertir las fechas en un 
+                        formato interno legible por un ordenador, permitiendo mejores resultados en los motores
+                        de búsqueda o características personalizadas como recordatorios.
+                    </p>
+                    <img
+                    src="https://bigcode.es/wp-content/uploads/2021/09/Elemento-time-en-html.webp"
+                    alt="Aplication time code"
+                    width="1344"
+                    height="896"
+                    />
+                    <p>
+                        Puede representar uno de los contenidos siguientes:
+                    </p>
+                    <ul>
+                        <li>Una hora en formato de 24 horas.</li>
+                        <li>Una fecha precisa en el calendario (con hora y zona horaria opcionales)</li>
+                        <li>Un período de tiempo válido</li>
+                    </ul>
+                    <h2>¿Cómo utilizarlo en HTML?</h2>
+                    <p>
+                        Este elemento es para presentar fechas y horas en un formato 
+                        legible por el equipo. Por ejemplo, este puede ayudar a un agente 
+                        de usuario ofrecer añadir un evento al calendario del usuario.
+                    </p>
+                    <p>
+                        El valor de fecha y hora (el valor legible por el equipo) es el valor
+                        del atributo del elemento <code>&lt;datetime&gt;</code>, que <em>debe estar en el formato correcto.</em>
+                        Si el elemento no tiene un atributo <code>&lt;datetime&gt;</code>, no debe tener ningún elemento descendiente, 
+                        y el valor <code>&lt;datetime&gt;</code> es el contenido de texto del hijo del elemento.
+                    </p>
+                    <h2>Ejemplo con el código &lt;datetime&gt; en HTML</h2>
+                    <h3>HTML</h3>
+    <pre><code>
+&lt;p&gt;El concierto fue el &lt;time datetime="2001-05-15T19:00"&gt; 15 de Mayo &lt;/time&gt;.&lt;/p&gt; 
+    </pre></code>
+                    <h3>OUTPUT</h3>
+    <pre>
+        El concierto fue el 15 de Mayo.
+    </pre>
+                     
+                    <blockquote cite="https://www.htmlquick.com/es/reference/tags/time.html" class="blockquote">   
+                        La presencia del atributo <code>&lt;datetime&gt;</code> no es obligatoria, 
+                        ésta puede ser útil para brindar una versión de los contenidos del elemento 
+                        más sencilla de manejar para los programas, que no requiere 
+                        la alteración de éstos.
+                    </blockquote> 
+                    <figure>
+                        <audio controls>
+                            <source
+                            src="https://drive.google.com/uc?export=download&id=1sEATNhYPmTl78RfgApBCeSl5Wz5wQkRC"
+                            type="audio/mp3"
+                            />
+                            Tu navegador no soporta la reproducción en audio.
+                        </audio>
+                    </figure>
+                    <p>
+                        Para mayor información consulte en <a href="https://www.htmlquick.com/es/reference/tags/time.html" target="_blank">Elemento time HTMLquick</a> 
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="container footer">
+            <ul class="social-links">
+              <li>
+                <a href="#"
+                  ><img src="../assets/icons/facebook.svg" alt="Facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets/icons/linkedin.svg" alt="LinkedIn icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets/icons/twitter.svg" alt="Twitter icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets/icons/github.svg" alt="GitHub icon"
+                /></a>
+              </li>
+            </ul>
+            <small>&copy; 2023 Codificable - Todos los derechos reservados</small>
+          </footer>
+    </body>
