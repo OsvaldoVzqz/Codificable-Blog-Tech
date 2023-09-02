@@ -18,9 +18,6 @@
 </section>
 */
 
-.hero {
-  /* background-color: var(--muted); */
-}
 
 .hero__content {
   max-width: var(--width-2xl);
@@ -52,6 +49,6 @@
 }
 
 .hero--center {
-  text-align: center;
+  text-align: left;
   margin-inline: auto;
 }

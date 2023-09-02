@@ -1,0 +1,57 @@
+.article-summary{
+    margin-bottom: 50px;
+}
+
+.content-blockquote{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blockquote-referer {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-left: 3px solid #3498db;
+    font-style: italic;
+}
+
+.blockquote-referer cite {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}
+
+.blockquote-referer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.blockquote-referer a:hover {
+    text-decoration: underline;
+}
+
+.audio-figure {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.span-label{
+    /* color:#f68585 */
+    color: #3498db;
+}
+
+.span-red{
+    color:#f68585
+}
+
+.span-green{
+    color: rgb(51, 170, 51);
+}

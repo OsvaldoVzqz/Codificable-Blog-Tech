@@ -1,0 +1,44 @@
+.logo-cloud {
+    text-align: center;
+    padding: var(--spacing-16) 0;
+  }
+  
+  .container__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo__title {
+    font-family: var(--display);
+    font-size: var(--font-4xl);
+    line-height: var(--leading-8);
+    font-weight: 600;
+    margin-bottom: var(--spacing-6);
+  }
+  
+  .logo__paragraph {
+    font-family: var(--text);
+    font-size: var(--font-lg);
+    color: var(--neutral-600);
+    margin-bottom: var(--spacing-16);
+  }
+  
+  .logo__container-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo__icons {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-8);
+    justify-content: center;
+  }
+  
+  .logo__icons img {
+    max-width: 100%;
+    height: auto;
+  }

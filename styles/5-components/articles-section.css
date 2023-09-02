@@ -13,7 +13,7 @@
 */
 
 .articles-section {
-  max-width: var(--width-2xl);
+  max-width: var(--width-4xl);
   margin-inline: auto;
 }
 
@@ -27,8 +27,10 @@
 }
 
 .articles-section__list {
-  max-width: var(--width-xl);
+  /* max-width: var(--width-xl); */
   display: flex;
   flex-direction: column;
   gap: 64px;
+
+  margin-top: 64px;
 }
